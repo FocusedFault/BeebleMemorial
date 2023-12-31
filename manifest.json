@@ -1,10 +1,10 @@
 ﻿{
-	"name": "NewMod",
+	"name": "BeebleMemorial",
 	"version_number": "1.0.0",
 	"website_url": "",
-	"description": "Template",
+	"description": "Example interactable made for the Risk of Rain 2 Modding Wiki",
 	"dependencies": [
-		"bbepis-BepInExPack-5.4.2111",
-		"RiskofThunder-HookGenPatcher-1.2.3"
+		"RiskofThunder-R2API_Prefab-1.0.3",
+		"RiskofThunder-R2API_Director-2.1.0"
 	]
 }
