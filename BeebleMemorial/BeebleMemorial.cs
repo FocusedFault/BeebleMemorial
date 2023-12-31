@@ -37,7 +37,7 @@ namespace BeebleMemorial
       trigger.AddComponent<EntityLocator>().entity = beebleStatue;
 
       InteractableSpawnCard interactableSpawnCard = ScriptableObject.CreateInstance<InteractableSpawnCard>();
-      interactableSpawnCard.name = name;
+      interactableSpawnCard.name = "iscBeebleMemorialStatue";
       interactableSpawnCard.prefab = beebleStatue;
       interactableSpawnCard.sendOverNetwork = true;
       interactableSpawnCard.hullSize = HullClassification.Golem;
